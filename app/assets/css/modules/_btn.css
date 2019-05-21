@@ -1,0 +1,29 @@
+.btn{
+  display: block;
+  clear: both;
+
+  &--header{
+    font-family: $sourceSansProR;
+    font-size: 1.125rem;
+    font-weight: 400;
+    float: right;
+    font-family: $sourceSansProR;
+    font-weight: 400;
+    color: $logoColor;
+    padding: 15px 92px;
+    text-decoration: none;
+    font-size: 1.125rem;
+    border: 2px solid $logoColor;
+    letter-spacing: 1px;
+    margin-bottom: 150px;
+    text-align: center;
+
+    @mixin atSmall{
+      float: none;
+      padding: 15px 62px;
+      font-size: 1.5rem;
+      margin-bottom: 100px;
+    }
+  }
+
+}
