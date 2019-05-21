@@ -290,7 +290,7 @@ template {
 .wrapper{
   max-width: 1200px;
   margin: 0 auto;
-
+ 
 
 
 
@@ -299,7 +299,7 @@ template {
 @media (max-width: 530px){
 .wrapper{
     padding: 0px 15px
-
+ 
 
 
 
@@ -347,7 +347,7 @@ template {
 .large-hero-section__container{
       float: none;
       margin-top: 10px;
-      width: 100%
+      width: 100% 
   }
   }
 /*** if screen is larger than 800 do this ***/
