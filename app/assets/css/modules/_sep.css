@@ -1,0 +1,7 @@
+.sep{
+  width: 138px;
+  background-color: $logoColor;
+  height: 4px;
+  float: right;
+  margin-top: 30px;
+}
