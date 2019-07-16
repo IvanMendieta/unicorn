@@ -1,0 +1,11 @@
+/* Global css rules */
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+.menu-section{
+
+  ul li{
+    display: inline;
+    margin-left: 23px;
+
+    @mixin atSmall{
+      margin-left: 13px;
+    }
+  }
+
+     ul li a{
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-family: $sourceSansProB;
+      font-weight: 700;
+      color: $logoColor;
+      text-decoration: none;
+    }
+
+
+
+
+
+}

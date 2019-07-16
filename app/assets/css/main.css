@@ -1,2 +1,13 @@
-@import 'normalize.css'; 
-@import 'modules/_page-section';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
+
+@import 'base/_global';
+@import 'base/_mixins';
+@import 'base/_variables';
+@import 'normalize.css';
+@import 'modules/_wrapper';
+@import 'modules/_large-hero-section';
+@import 'modules/_menu-section';
+@import 'modules/_sep';
+@import 'modules/_btn';
