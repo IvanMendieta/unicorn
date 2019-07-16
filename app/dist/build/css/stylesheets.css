@@ -494,3 +494,46 @@ nav.menu-section ul li{
       margin-bottom: 50px
   }
   }
+.whowhy-section__maintitle{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    line-height: 30px;
+  }
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+  }
+.whowhy-section__heading{
+    margin-bottom: 81px;
+    margin-top: 23px;
+    color: #212121;
+    font-size: 1.6875rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+  }
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.whowhy-section__heading{
+      margin-bottom: 41px
+  }
+  }
+.whowhy-section__desc{
+    max-width: 963px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+  }
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+  }
+.margin-top-container{
+  margin-top: 100px;
+
+}
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.margin-top-container{
+    margin-top: 50px
+
+}
+  }

@@ -1,0 +1,8 @@
+.margin-top-container{
+  margin-top: 100px;
+
+  @mixin atSmall{
+    margin-top: 50px;
+  }
+
+}

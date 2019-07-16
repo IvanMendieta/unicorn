@@ -1,0 +1,39 @@
+.whowhy-section{
+
+  &__maintitle{
+    text-align: center;
+    font-size: 1rem;
+    font-family: $sourceSansProR;
+    color: $headingColor;
+    line-height: 30px;
+
+    @mixin atSmall{
+
+    }
+  }
+
+  &__heading{
+    margin-bottom: 81px;
+    margin-top: 23px;
+    color: $headingColor;
+    font-size: 1.6875rem;
+    font-family: $sourceSansProR;
+    letter-spacing: 1px;
+
+    @mixin atSmall{
+      margin-bottom: 41px;
+    }
+  }
+
+
+  &__desc{
+    max-width: 963px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+
+    @mixin atSmall{
+
+    }
+  }
+
+}
