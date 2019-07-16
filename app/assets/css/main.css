@@ -8,5 +8,6 @@
 @import 'normalize.css';
 @import 'modules/_wrapper';
 @import 'modules/_large-hero-section';
+@import 'modules/_menu-section';
 @import 'modules/_sep';
 @import 'modules/_btn';

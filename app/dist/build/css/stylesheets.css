@@ -316,8 +316,6 @@ template {
 
 
 
-
-
 }
 .large-hero-section__header-top{
     margin-top: 56px;
@@ -336,6 +334,14 @@ template {
   }
 .large-hero-section__right-col{
     float: right;
+  }
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.large-hero-section__right-col{
+      margin-top: 60px;
+      float: none;
+      text-align: center
+  }
   }
 .large-hero-section__container{
     margin-top: 350px;
@@ -374,8 +380,9 @@ template {
 @media (max-width: 530px){
 .large-hero-section__storyteller{
       font-size: 2.5rem;
-      float: right;
-      text-align: center
+      float: none;
+      text-align: center;
+      margin-top: -50px
   }
   }
 .large-hero-section__desc{
@@ -395,24 +402,30 @@ template {
 .large-hero-section__desc{
       float: none;
       text-align: center;
-      margin-top: 100px;
+      margin-top: 50px;
       font-size: 1.2rem;
       clear: both
 
   }
   }
-.large-hero-section nav.menu-section ul li{
-  display: inline;
-  margin-left: 23px;
-}
-.large-hero-section nav.menu-section ul li a{
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    color: #212121;
-    text-decoration: none;
+.menu-section ul li{
+    display: inline;
+    margin-left: 23px;
   }
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.menu-section ul li{
+      margin-left: 13px
+  }
+  }
+.menu-section ul li a{
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      color: #212121;
+      text-decoration: none;
+    }
 .sep{
   width: 138px;
   background-color: #212121;
@@ -420,6 +433,15 @@ template {
   float: right;
   margin-top: 30px;
 }
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.sep{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px
+}
+  }
 .btn{
   display: block;
   clear: both;
@@ -445,8 +467,8 @@ template {
 @media (max-width: 530px){
 .btn--header{
       float: none;
-      padding: 15px 62px;
-      font-size: 1.5rem;
-      margin-bottom: 100px
+      padding: 15px 12px;
+      font-size: 1.2rem;
+      margin-bottom: 50px
   }
   }

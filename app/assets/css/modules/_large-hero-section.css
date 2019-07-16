@@ -25,6 +25,12 @@
   }
   &__right-col{
     float: right;
+
+    @mixin atSmall{
+      margin-top: 60px;
+      float: none;
+      text-align: center;
+    }
   }
 
   &__container{
@@ -56,8 +62,9 @@
 
     @mixin atSmall{
       font-size: 2.5rem;
-      float: right;
+      float: none;
       text-align: center;
+      margin-top: -50px;
     }
   }
 
@@ -75,30 +82,12 @@
     @mixin atSmall{
       float: none;
       text-align: center;
-      margin-top: 100px;
+      margin-top: 50px;
       font-size: 1.2rem;
       clear: both;
     }
 
   }
-
-
-
-nav.menu-section ul li{
-  display: inline;
-  margin-left: 23px;
-}
-
-  nav.menu-section ul li a{
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-family: $sourceSansProB;
-    font-weight: 700;
-    color: $logoColor;
-    text-decoration: none;
-  }
-
-
 
 
 

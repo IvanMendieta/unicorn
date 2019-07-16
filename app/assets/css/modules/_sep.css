@@ -4,4 +4,11 @@
   height: 4px;
   float: right;
   margin-top: 30px;
+
+  @mixin atSmall{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+  }
 }
