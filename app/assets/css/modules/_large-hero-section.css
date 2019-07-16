@@ -25,15 +25,14 @@
   }
   &__right-col{
     float: right;
-<<<<<<< HEAD
-=======
+
 
     @mixin atSmall{
       margin-top: 60px;
       float: none;
       text-align: center;
     }
->>>>>>> header-section
+
   }
 
   &__container{
@@ -65,14 +64,14 @@
 
     @mixin atSmall{
       font-size: 2.5rem;
-<<<<<<< HEAD
+
       float: right;
       text-align: center;
-=======
+
       float: none;
       text-align: center;
       margin-top: -50px;
->>>>>>> header-section
+
     }
   }
 
@@ -90,11 +89,8 @@
     @mixin atSmall{
       float: none;
       text-align: center;
-<<<<<<< HEAD
       margin-top: 100px;
-=======
       margin-top: 50px;
->>>>>>> header-section
       font-size: 1.2rem;
       clear: both;
     }
@@ -120,10 +116,6 @@ nav.menu-section ul li{
 
 
 
-
-
-=======
->>>>>>> header-section
 
 
 }

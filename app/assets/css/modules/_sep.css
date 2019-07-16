@@ -4,8 +4,6 @@
   height: 4px;
   float: right;
   margin-top: 30px;
-<<<<<<< HEAD
-=======
 
   @mixin atSmall{
     float: none;
@@ -13,5 +11,5 @@
     display: block;
     margin-top: 20px;
   }
->>>>>>> header-section
+  
 }
