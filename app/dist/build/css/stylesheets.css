@@ -496,13 +496,6 @@ nav.menu-section ul li{
   }
 .whowhy-section__maintitle{
     text-align: center;
-    font-size: 1rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #212121;
-    line-height: 30px;
-  }
-/*** if screen is larger than 530 do this ***/
-@media (max-width: 530px){
   }
 .whowhy-section__heading{
     margin-bottom: 81px;
@@ -522,9 +515,16 @@ nav.menu-section ul li{
     max-width: 963px;
     margin: 0 auto;
     padding-bottom: 120px;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    line-height: 30px;
   }
 /*** if screen is larger than 530 do this ***/
 @media (max-width: 530px){
+.whowhy-section__desc{
+      padding-bottom: 50px
+  }
   }
 .margin-top-container{
   margin-top: 100px;
@@ -535,5 +535,60 @@ nav.menu-section ul li{
 .margin-top-container{
     margin-top: 50px
 
+}
+  }
+.features-section{
+  background-color: #efefef;
+  overflow: hidden;
+
+
+
+
+
+}
+.features-section__one-third-col{
+  float: left;
+  width: 375px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  padding-left: 62px;
+}
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.features-section__one-third-col{
+    text-align: center;
+    float: none;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width: 100%
+}
+  }
+.features-section__headings{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #212121;
+  font-size: 1.125rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.features-section__headings{
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+  }
+.features-section__desc{
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #212121;
+  line-height: 25px;
+  width: 267px;
+}
+/*** if screen is larger than 530 do this ***/
+@media (max-width: 530px){
+.features-section__desc{
+    width: 100%
 }
   }

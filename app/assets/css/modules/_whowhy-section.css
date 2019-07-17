@@ -2,14 +2,6 @@
 
   &__maintitle{
     text-align: center;
-    font-size: 1rem;
-    font-family: $sourceSansProR;
-    color: $headingColor;
-    line-height: 30px;
-
-    @mixin atSmall{
-
-    }
   }
 
   &__heading{
@@ -30,9 +22,13 @@
     max-width: 963px;
     margin: 0 auto;
     padding-bottom: 120px;
+    font-size: 1rem;
+    font-family: $sourceSansProR;
+    color: $headingColor;
+    line-height: 30px;
 
     @mixin atSmall{
-
+      padding-bottom: 50px;
     }
   }
 
