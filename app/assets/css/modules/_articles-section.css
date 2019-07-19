@@ -28,7 +28,13 @@
     }
   }
 
-
+  &__cols{
+    float: left;
+    width: 366px;
+    background-color: $articlesbg;
+    margin-left: 27px;
+    padding: 68px 40px;
+  }
 
 
 }

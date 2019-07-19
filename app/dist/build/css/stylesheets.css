@@ -543,8 +543,6 @@ nav.menu-section ul li{
 
 
 
-
-
 }
 .features-section__one-third-col{
   float: left;
@@ -621,4 +619,11 @@ nav.menu-section ul li{
 .articles-section__desc{
       margin-bottom: 50px
   }
+  }
+.articles-section__cols{
+    float: left;
+    width: 366px;
+    background-color: #222222;
+    margin-left: 27px;
+    padding: 68px 40px;
   }
